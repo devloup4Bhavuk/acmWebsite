@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.time-line{
+    background-color: rgb(11, 166, 238);
+}
+
+li{
+    list-style: none;
+    margin-left: 20%;
+}
+
+.liner{
+    display: none;
+}
+
+.year-box{
+    height: 180px;
+    width: 220px;
+    background-color: white;
+    border-radius: 7px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    position: relative;
+    box-shadow: 0 11px 17px 0 rgb(0 0 0 / 20%), 0 18px 36px 0 rgb(0 0 0 / 19%);
+    transition: .6s ease all !important;
+}
+
+.year-box h2{
+    position: absolute;
+    top: 76px;
+    left: 111px;
+    transform: translate(-50%,-50%);
+    font-size: 5em;
+}
+
+.year-box h2:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 1px #03a9f4;
+}
+
+.year-box h2:nth-child(2){
+    color: #03a9f4;
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate
+{
+    0%,100%
+    {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+    50%
+    {
+        clip-path: polygon(0 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+}
+.right{
+    margin-left: 60%;
+}
+
+.line img{
+    width: 63%;
+    margin-left: 4vw;
+    transform: rotate(1deg);
+    height: 107px;
+}
+
+.year-box:hover{
+    background-color: rgb(6, 0, 63);
+    transition: .6s ease all !important;
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+
+/*body{
+    background-color: #34495e;
+    background-image: linear-gradient(355deg, #32a4c7 0%, #416bdd 74%);
+
+}
+
+
+
+li{
+    width: 60%;
+    margin-left: 23vw;
+    list-style: none;
+}
+
+.icon{
+    height: 184px;
+    width: 235px;
+    background-color: rebeccapurple;
+}
+
+.start ul li:nth-child(1){
+    background: url(imagehere/client-bg-1.png) 65px top no-repeat !important;
+    padding-top: 180px;
+}
+
+.start ul li:nth-child(odd){
+    background: url(imagehere/process-line-3.png) 65px top no-repeat;
+    padding: 10px ;
+}
+
+.start ul li:nth-child(even){
+    background: url(imagehere/process-line-2.png) 65px top no-repeat;
+    padding-left: 590px;
+    padding-top: 100px;
+
+}*/
+@media only screen and (max-width: 600px){
+    .year-box{
+        width: 40vw;
+        height: 20vh;
+        margin: auto;
+    }
+    .line{
+        display: none;
+    }
+    .right{
+        margin:auto;
+    }
+    .year-box h2{
+        font-size: 250%;
+        text-align: center;
+    }
+    .liner{
+        display: block;
+        margin: auto;
+    }
+}
