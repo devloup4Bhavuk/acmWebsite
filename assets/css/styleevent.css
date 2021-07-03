@@ -30,6 +30,7 @@ li{
     position: relative;
     box-shadow: 0 11px 17px 0 rgb(0 0 0 / 20%), 0 18px 36px 0 rgb(0 0 0 / 19%);
     transition: .6s ease all !important;
+    cursor:pointer;
 }
 
 .year-box h2{
@@ -63,6 +64,7 @@ li{
 }
 .right{
     margin-left: 60%;
+    cursor:pointer;
 }
 
 .line img{
