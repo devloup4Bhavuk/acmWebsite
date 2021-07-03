@@ -80,6 +80,10 @@ li{
     box-shadow: 0 25px 40px rgba(0,0,0,.5);
 }
 
+.year-box:active{
+    background-color: white;
+}
+
 
 
 @media only screen and (max-width: 1110px){
@@ -127,17 +131,25 @@ li{
         background-color: white;
     }
 
-    .time-line li::after{
-        content: '';
-        position: absolute;
-        height: 20px;
-        width: 20px;
-        background-color: white;
+    .circle{
+        height: 2.5vw;
+        width: 2.5vw;
+        border: solid #03a9f4;
         border-radius: 50%;
-        transform: translateX(37vh) translateY(-15vh);
+        background-color: white;
+        position: absolute;
+        left: 48.8%;
+        margin-top: -17%;
+        min-width: 8px;
+        min-height: 8px;
     }
-    
-}
+
+    .year-box:hover + .circle{
+        background-color: rgb(6, 0, 63);
+        border: solid white;
+    }
+}  
+
 
 @media only screen and (max-width: 348px){
     .time-line:before {
