@@ -7,11 +7,12 @@
 
 .time-line{
     background-color: rgb(11, 166, 238);
+    position: relative;
 }
 
 li{
     list-style: none;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 
 .liner{
@@ -25,8 +26,6 @@ li{
     border-radius: 7px;
     margin: 10px 0px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100%;
     position: relative;
     box-shadow: 0 11px 17px 0 rgb(0 0 0 / 20%), 0 18px 36px 0 rgb(0 0 0 / 19%);
@@ -35,8 +34,8 @@ li{
 
 .year-box h2{
     position: absolute;
-    top: 76px;
-    left: 111px;
+    top: 37%;
+    left: 51%;
     transform: translate(-50%,-50%);
     font-size: 5em;
 }
@@ -79,60 +78,62 @@ li{
     box-shadow: 0 25px 40px rgba(0,0,0,.5);
 }
 
-/*body{
-    background-color: #34495e;
-    background-image: linear-gradient(355deg, #32a4c7 0%, #416bdd 74%);
 
+
+@media only screen and (max-width: 1110px){
+    li{
+        margin-left: 14%;
+    }
 }
 
-
-
-li{
-    width: 60%;
-    margin-left: 23vw;
-    list-style: none;
-}
-
-.icon{
-    height: 184px;
-    width: 235px;
-    background-color: rebeccapurple;
-}
-
-.start ul li:nth-child(1){
-    background: url(imagehere/client-bg-1.png) 65px top no-repeat !important;
-    padding-top: 180px;
-}
-
-.start ul li:nth-child(odd){
-    background: url(imagehere/process-line-3.png) 65px top no-repeat;
-    padding: 10px ;
-}
-
-.start ul li:nth-child(even){
-    background: url(imagehere/process-line-2.png) 65px top no-repeat;
-    padding-left: 590px;
-    padding-top: 100px;
-
-}*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 900px){
+    
+    li{
+        margin-left: 18%;
+    }
     .year-box{
-        width: 40vw;
-        height: 20vh;
-        margin: auto;
+        width: 27vw;
+        height: 22vw;
+        margin: 10px 0 0px;
     }
     .line{
         display: none;
     }
     .right{
-        margin:auto;
+        margin-left: 45%;
     }
     .year-box h2{
-        font-size: 250%;
-        text-align: center;
+        font-size: 9vw;
+        
     }
     .liner{
         display: block;
-        margin: auto;
+        margin-left: 42%;
+        height: 216px;
+        width: 0px;
+        border: 4px dashed white;
+        border-radius: 2px;
+    }
+    .time-line:before {
+        content: "";
+        position: absolute;
+        top: 3%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 94%;
+        background-color: white;
+    }
+    
+}
+
+@media only screen and (max-width: 348px){
+    .time-line:before {
+        top: 5%;
+        height: 88%;
+    }
+
+    .year-box h2{
+        top: 20%;
     }
 }
