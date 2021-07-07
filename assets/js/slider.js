@@ -18,9 +18,9 @@ var swiper = new Swiper('.swiper-container', {
       el: ".swiper-pagination",
       dynamicBullets: true,
     },
-    // loop: true, -> if more event then loop true
-    // autoplay: {
-    //   delay: 1000,
-    //   disableOnInteraction: false,
-    // },
+     loop: true, 
+     autoplay: {
+     delay: 1000,
+     disableOnInteraction: false,
+     },
   });
