@@ -19,8 +19,8 @@ var swiper = new Swiper('.swiper-container', {
       dynamicBullets: true,
     },
      loop: true, 
-     autoplay: {
-     delay: 1000,
-     disableOnInteraction: false,
-     },
+     //autoplay: {
+     //delay: 1000,
+     //disableOnInteraction: false,
+     //},
   });
