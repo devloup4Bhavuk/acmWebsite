@@ -93,8 +93,6 @@ body {
   .modal-body {
     /* 100% = dialog height, 120px = header + footer */
     max-height: calc(100% - 120px);
-    display: flex;
-    overflow-y: scroll;
 }
 .heading1{
   font-family: "Audrey";
@@ -119,6 +117,10 @@ p{
     padding-right: 20px;
 }
 
+.modal-dialog{
+  min-width: 168px;
+}
+
   
 @media only screen and (max-width: 350px){
   .swiper-wrapper img{
@@ -134,9 +136,15 @@ p{
 
 }
 
-@media only screen and (max-width: 1483px) {
-  .modal-body {
-    display: block;
-}
+@media only screen and (max-width: 558px) {
+  .composition_photo{
+    height: 48vw;
+    width: 39vw;
+    margin: 38px 20px 37px 5%;
+  }
+
+  .heading1{
+    font-size: 2rem;
+  }
 }
   
