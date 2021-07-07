@@ -94,6 +94,7 @@ body {
     /* 100% = dialog height, 120px = header + footer */
     max-height: calc(100% - 120px);
     display: flex;
+    overflow-y: scroll;
 }
 .heading1{
   font-family: "Audrey";
