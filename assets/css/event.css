@@ -133,9 +133,9 @@ p{
 
 }
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1483px) {
   .modal-body {
-    
+    display: block;
 }
 }
   
