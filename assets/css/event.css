@@ -132,10 +132,8 @@ p{
 
 }
 
-@media only screen and (max-width: 1483px) {
-  .modal-body {
-    display: block;
-}
+@media only screen and (max-width: 558px) {
+  
 }
 
 
