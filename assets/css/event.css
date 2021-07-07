@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://db.onlinewebfonts.com/c/d9a58a393d946d86051fbd9a0b594d2f?family=Audrey");
+@font-face {
+  font-family: "Audrey";
+  src: url("https://db.onlinewebfonts.com/t/d9a58a393d946d86051fbd9a0b594d2f.eot");
+  src: url("https://db.onlinewebfonts.com/t/d9a58a393d946d86051fbd9a0b594d2f.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/d9a58a393d946d86051fbd9a0b594d2f.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/d9a58a393d946d86051fbd9a0b594d2f.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/d9a58a393d946d86051fbd9a0b594d2f.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/d9a58a393d946d86051fbd9a0b594d2f.svg#Audrey")
+      format("svg");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -73,11 +90,46 @@ body {
     color: rgba(0, 0, 0, 0.638);
   }
 
+  .modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    display: flex;
+}
+.heading1{
+  font-family: "Audrey";
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+}
+.composition_photo{
+  /* margin:0px 110px; */
+  height: 40vh;
+
+  float: left;
+  margin: 40px 60px 60px 40px;
+
+}
+
+p{
+  font-size: 2.1rem;
+    line-height: 1.5;
+    text-align: justify;
+    padding-right: 20px;
+}
+
   
 @media only screen and (max-width: 350px){
   .swiper-wrapper img{
     height: 100vw;
     width: 70vw;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .modal{
+    margin-left: 80px;
+    }
+
 }
   
