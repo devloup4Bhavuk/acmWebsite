@@ -10,15 +10,10 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-
-
-
+    <link rel="stylesheet"href="assets/css/styleevent.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="assets/css/events.css">
     <link rel="stylesheet" href="assets/css/index.css">
-
-    <link rel="stylesheet" href="./assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="./assets/css/owl.theme.default.css">
     <style>
         h6 {
             font-size: 14px !important;
@@ -128,1315 +123,147 @@
     </div>
     <section id="upcoming-events">
         <h2 class="upcoming-events-heading">Event Timeline<span class="upcoming-events-heading-line"></span></h2>
-        <!-- <div class="container-fluid">
-            <ul class="upcoming-events-ulist">
-                <li class="upcoming-events-lists">00:00 - 00:45 <svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="10" cy="10" r="10" fill="#C4C4C4" /></svg> Event Name</li>
-                <li class="upcoming-events-lists">00:00 - 00:45 <svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="10" cy="10" r="10" fill="#C4C4C4" /></svg> Event Name</li>
-                <li class="upcoming-events-lists">00:00 - 00:45 <svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#C4C4C4" /></svg> Event Name</li>
-                <li class="upcoming-events-lists">00:00 - 00:45 <svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="10" cy="10" r="10" fill="#C4C4C4" /></svg> Event Name</li>
-            </ul>
-        </div> -->
     </section>
 
-    <section>
+    <div class="time-line">
+        <br>
+        <br>
+
+        <ul class="elements">
+
+            <li>
+                <div class="year-box" data-aos="fade-right" onclick="location.href='assets/event/event2k21.html'">
+                    <h2>2021</h2>
+                    <h2>2021</h2>
+                </div>
+
+                <div class="circle"></div>
+            </li>
+
+            <li>
+
+                <div class="line">
+                    <img src="assets/images/process-line-2.png">
+                </div>
+
+            </li>
+        
+            <li>
+                <div class="year-box right" data-aos="fade-left" onclick="location.href='assets/event/event2k20.html'">
+                    <h2>2020</h2>
+                    <h2>2020</h2>
+                </div>
+
+                <div class="circle"></div>
+            </li>
+
+            <li>
+
+                <div class="line">
+                    <img src="assets/images/process-line-3.png">
+                </div>
+
+            </li>
+
+            <li>
+                <div class="year-box" data-aos="fade-right" onclick="location.href='assets/event/event2k19.html'">
+                    <h2>2019</h2>
+                    <h2>2019</h2>
+                </div>
+
+                <div class="circle"></div>
+            </li>
+
+            <li>
+
+                <div class="line">
+                    <img src="assets/images/process-line-2.png">
+                </div>
+
+            </li>
+
+            <li>
+                <div class="year-box right" data-aos="fade-left" onclick="location.href='assets/event/event2k18.html'">
+                    <h2>2018</h2>
+                    <h2>2018</h2>
+                </div>
+
+                <div class="circle"></div>
+            </li>
+
+            <li>
+
+                <div class="line">
+                    <img src="assets/images/process-line-3.png">
+                </div>
+
+            </li>
+
+            <li>
+                <div class="year-box" data-aos="fade-right" onclick="location.href='assets/event/event2k17.html'">
+                    <h2>2017</h2>
+                    <h2>2017</h2>
+                </div>
+
+                <div class="circle"></div>
+            </li>
+
+            <li>
+
+                <div class="line">
+                    <img src="assets/images/process-line-2.png">
+                </div>
+
+            </li>
+
+            <li>
+                <div class="year-box right" data-aos="fade-left" onclick="location.href='assets/event/event2k16.html'">
+                    <h2>2016</h2>
+                    <h2>2016</h2>
+                </div>
+
+                <div class="circle"></div>
+            </li>
+
+            <li>
+
+                <div class="line">
+                    <img src="assets/images/process-line-3.png">
+                </div>
+        
+            </li>
+
+            <li>
+                <div class="year-box" data-aos="fade-right" onclick="location.href='assets/event/event2k15.html'">
+                    <h2>2015</h2>
+                    <h2>2015</h2>
+                </div>
+
+                <div class="circle"></div>
+            </li>
+
+        </ul>
+        <br>
+        <br>
+    </div>
+    
+    <script type="text/javascript" src="assets/js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".year-box"),{
+		max: 50,
+		speed: 400
+	    });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
 
 
-        <body data-spy="scroll" data-target="#navbar" data-offset="500" style="position: relative;">
 
-            <div class="wrapper">
-
-                <nav class="nav__wrapper" id="navbar">
-                    <ul class="nav">
-                        <li role="presentation" class="active">
-                            <a href="#section1">
-                                <span class="nav__counter">2021</span>
-                            </a>
-                        </li>
-
-                        <li role="presentation" class="active">
-                            <a href="#section2">
-                                <span class="nav__counter">2020</span>
-                            </a>
-                        </li>
-
-                        <li role="presentation">
-                            <a href="#section3">
-                                <span class="nav__counter">2019</span>
-                            </a>
-                        </li>
-
-                        <li role="presentation">
-                            <a href="#section4">
-                                <span class="nav__counter">2018</span>
-                            </a>
-                        </li>
-
-                        <li role="presentation">
-                            <a href="#section5">
-                                <span class="nav__counter">2017</span>
-                            </a>
-                        </li>
-
-                        <li role="presentation">
-                            <a href="#section6">
-                                <span class="nav__counter">2016</span>
-                            </a>
-                        </li>
-
-                        <li role="presentation">
-                            <a href="#section7">
-                                <span class="nav__counter">2015</span>
-                            </a>
-                        </li>
-
-                    </ul>
-                </nav>
-                <section class="section section1" id="section1">
-
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <a href="./assets/events page/ethical-event.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2015/ethical hacking/Poster.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON ETHICAL HACKING</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-
-                </section>
-                <!-- 2020 -->
-                <section class="section section2" id="section2">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <a href="./assets/events page/dsptalk2020.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img style="vertical-align:middle " class="rounded-circle" src="./assets/events_images/2020/dspTalk/dspTalkPoster.png" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">DSP Talk</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/hourOfCode2020.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/hourOfCode/hourOfCode.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">Hour Of Code</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/CodeInovation2020.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle" src="./assets/events_images/2020/codeInovation/codeInovation.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">Code Inovation Series</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/gitHandsOn.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle" src="./assets/events_images/2020/gitHandsOn/gitHandsOn.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">GITHUB HANDS-ON WORKSHOP</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/vedicMaths2k20.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/vedicMaths/WhatsApp-Image-2020-11-18-at-12.24.06-AM-1.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON VEDIC MATHEMATICS</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/treePlantation2k20.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/treePlantation/WhatsApp-Image-2021-01-02-at-12.31.23-PM-1.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">TREE PLANTATION DRIVE</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/flipIt_oct.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/flipIt/flipIt_oct.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">FLIP IT(OCTOBER)</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/ideation2k20.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/ideation2020/WhatsApp-Image-2020-11-18-at-12.24.48-AM.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">IDEATHON CHALLENGE 2020</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/mentalHealth2k20.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/mentalHealth/WhatsApp-Image-2020-09-30-at-3.25.33-PM-1.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON MENTAL HEALTH AWARENESS</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/covidAwareness.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/covidAwareness/covidMain.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">COVID AWARENESS AND DONATION CAMP</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/flipIt_aug.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/flipIt/flipIt_aug.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">FLIP IT(AUGUST)</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/dsArchitecture.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/dsArchitecture/dsArchitecture.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">DEFENSIBLE SECURITY Architecture</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/techweek2020.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/techweek2020/techweek2020.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">TECHWEEK 2020</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/postermaking2k20.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " alt="" src="./assets/events_images/2020/poster-making/postermaking2k20-1.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">POSTER MAKING COMPETITION</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/digitalanalytics-2k20.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/digital-analytics/digitalanalytics2k20-1.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WEBINAR ON DIGITAL ANALYTICS ASPECTS</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/wwis2020.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/WWIS/Poster-WWIS.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WWIS</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/ai-2k20.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/ai/ai2k20-1.png" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">EXPERT TALK ON AI</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/codathon2k20.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/codathon-2k20/codathon2k20-3.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CODATHON 2020</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/cybercrime-2k20.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/cyber-crime/cyber-crime3.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CYBER CRIME</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/django2k20.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2020/django/django.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON DJANGO</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </section>
-                <!-- 2019 -->
-                <section class="section section3" id="section3">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <a href="./assets/events page/datascience_19.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2019/dataScience/dataScience.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">EXPERT TALK ON DATA SCIENCE</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/nodejsWorkshop19.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2019/nodejs/nodejs.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON NODEJS</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/reactjsWorkshop19.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2019/reactjs/reactjs.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON REACTJS</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/webomania19.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2019/webomania/webomania.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WEBOMANIA</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/android2k19.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2019/android/Poster-for-Android-Workshop.png" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON ANDROID WITH MACHINE LEARNING</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/bigData2019.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2019/bigData/bigdata.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">EXPERT TALK ON BIGDATA AND HADOOP</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/hackon2k19.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2019/hackon/hackon.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON ETHICAL HACKING</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/codathon2k19.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2019/codathon/codathon.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CODATHON</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </section>
-                <!-- 2018 -->
-                <section class="section section4" id="section4">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <a href="./assets/events page/mentalWellBeing2018.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2018/mentalWellBeing2018/mwb1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">MENTALWELL BEING</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/compute2018.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2018/Compute1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">COMPUTE 2018</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/aws2018.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2018/aws1.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON AWS AND CLOUD COMPUTING</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- <div class="item">
-                            <a href="">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">EXPERT TALK ON CYBER SECURITY</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div> -->
-                        <div class="item">
-                            <a href="./assets/events page/fdp2018.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2018/fdp1.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">FDP ON PROGRAMMING & LOGIC BUILDING</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/appdev2018.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2018/appdev.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">APPLIED CS WITH ANDROID</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/NitttrVisit_18.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2018/nitttr/poster.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">INDUSTRIAL VISIT TO NITTTR, CHANDIGARH</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/codathon2018.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2018/codathon2018/Codathon2018.png" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CODATHON</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/SpeakToLead.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2018/speaktolead/speaktolead1.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">SPEAK TO LEAD</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/ChapterAward.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2018/chapterAward/award1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">HONORABLE MENTION CHAPTER AWARD</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/MobileDay.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2018/mobileDay/mobileday1.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">MOBILE DEVELOPER DAY</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/clashOfGeeks.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2018/clashofGeek/cog1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CLASH OF GEEKS</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </section>
-                <!-- 2017 -->
-                <section class="section section5" id="section5">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <a href="./assets/events page/ACM-Whackathon2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/ACM-Whackathon/ACM-event2017-wHackathon.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">ACM-W HACKATHON 2017</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/Node-Js-Workshop2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/Node-Js-Workshop/Node-js-poster2017.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON NODEJS</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/Conjecture2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/Conjecture/conjecture2017(1).jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">Conjecture</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/CSpathshala2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/CSpathshala/cspathshala.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CS PATHSHALA</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/CS-curricula-workshop2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/CS-curricula-Workshop/cs-curricula(1).jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CS CURRICULA WORKSHOP</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/technovation_2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/technovation2017/techno1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">TECHNOVATION</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- <div class="item">
-                            <a href="./assets/events page/aarda_2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/aarda2017/aarda1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">AARDA 2017</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div> -->
-                        <div class="item">
-                            <a href="./assets/events page/alumni_talk_2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/alumnitalk2017/at1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">ALUMNI TALK</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/noughts_croxes_2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/noughts2017/nc19.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">NOUGHTS & CROXES</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/industrial_visit_2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/industrialvisit2017/iv1.png" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">INDUSTRIAL VISIT</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/chandraShekhar2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/chandraShekhar2017/cs1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">MEETING WITH MR. CHANDRA SHEKHAR</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/codathon2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/codathon2017/cdt1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CODATHON</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/aarda_2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/aarda2017/aarda1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">AARDA 2017</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/DSPtalk2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/DSPtalk2017/dsp1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">DSP TALK 2017</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/enigma2017.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2017/enigma2017/enig1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">ENIGMA</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </section>
-                <!-- 2016 -->
-                <section class="section section6" id="section6">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <a href="./assets/events page/hourofcode2016.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2016/hourofcode/Hour-of-Code-poster.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">HOUR OF CODE</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/codemanic2016.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2016/codemanic/Code-Maniac.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CODE MANIC</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/acmSummit2016.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2016/acmsummit/2016_acmsummit_1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">ACM SUMMIT</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/industrialVisit2k16.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2016/industrialVisit/industrialVisit1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">INDUSTRIAL VISIT</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/webPlayer2k16.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2016/webPlayer/webPlayer1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WEB PLAYERS</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/creatingArt2k16.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2016/creativeArt/creativeArt1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CREATING ART WITH ILLUSTRATOR</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/hostelActivity2k16.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2016/hostelActivity/hostelActivity1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">HOSTEL ACTIVITY</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/hackathon2k16.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2016/hackathon/hackathon1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">HACKATHON FOR WOMEN</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/swa2k16.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2016/swa/swa1.jpg  " width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">EVENT ON SWACH BHARAT</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/iconic_wrokshop.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2016/ionic workshop/IONIC-WORKSHOP-2016.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON HYBRID APP DEVELOPMENT USING IONICY</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/cs-pathshala.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2016/cs pathshala/CS pathshala.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CS PATHSHALA</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </section>
-                <!-- 2015 -->
-                <section class="section section7" id="section7">
-
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <a href="./assets/events page/ethical-event.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2015/ethical hacking/Poster.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON ETHICAL HACKING</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/industrial-visit.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2015/industrial visit/industrial visit.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">INDUSTRIAL VISIT</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/cs-coach.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2015/CS Coach/CS-Coach-Poster.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CS COACH</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/codepirates-season-3-2015.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2015/code pirates/Code-Pirates-3-Poster.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CODE PIRATES SEASON-3</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/inter-session.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2015/interaction session/interaction session.jpeg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">INTERACTION SESSION</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/codepirates-season-2-2015.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2015/code pirates/Code-Pirate-2.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">CODE PIRATES SEASON-2</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="./assets/events page/computingcurricula2015.html">
-                                <div class="card shadow-lg text-center ">
-                                    <div class="card-header mt-3 ">
-                                        <div class="row justify-content-start">
-                                            <div class="col-12">
-                                                <img class="rounded-circle " src="./assets/events_images/2015/computingcurricula/Curricula-2015_1.jpg" width="250" height="250">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="font-weight-bold mb-3 text-center mt-1 mb-4">WORKSHOP ON COMPUTING CURRICULA</h6>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-
-
-                </section>
-
-
-            </div>
-
-    </section>
-
-
-    </body>
     <div class="container-fluid footer" id="footer" style="background-color: #e8e8e8;">
         <div class="row">
            <div class="col-sm-6 footerLeft">
@@ -1494,39 +321,9 @@
             
         }
     </script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/event.js"></script>
-    <script src="./assets/js/owl.carousel.js"></script>
-    <script src="./assets/js/owl.carousel.min.js"></script>
 
-    <script>
-        $('.owl-carousel').owlCarousel({
-            center: true,
-            items: 1,
-            // autoWidth: false,
-            margin: 30,
-            responsive: {   
-                600: {
-                    items: 3,
-                    // margin: 10,
-                    dotsEach: false,
-                    dots: false,
-                    autoWidth: false,
-
-                },
-                1028: {
-                    items: 5,
-                    autoWidth: false,
-                    dotsEach: true,
-                    dots: true,
-                }
-            },
-            loop: false,
-            dotsEach: false,
-            dots: false,
-
-        })
-    </script>
+    
 </body>
 
 </html>
