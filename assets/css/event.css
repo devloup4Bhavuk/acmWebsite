@@ -93,8 +93,7 @@ body {
   .modal-body {
     /* 100% = dialog height, 120px = header + footer */
     max-height: calc(100% - 120px);
-    display: flex;
-}
+    }
 .heading1{
   font-family: "Audrey";
   text-transform: uppercase;
@@ -107,7 +106,7 @@ body {
   height: 40vh;
 
   float: left;
-  margin: 40px 60px 60px 40px;
+  margin: 40px 38px 22px 40px;
 
 }
 
@@ -133,9 +132,13 @@ p{
 
 }
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1483px) {
   .modal-body {
-    
+    display: block;
 }
 }
+
+
+
+
   
