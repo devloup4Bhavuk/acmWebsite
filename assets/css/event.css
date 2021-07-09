@@ -89,10 +89,15 @@ body {
   .arrow:active{
     color: rgba(0, 0, 0, 0.638);
   }
-
+  .modal-dialog,
+  .modal-content {
+      /* 80% of window height */
+      height: 91%;
+  }
   .modal-body {
     /* 100% = dialog height, 120px = header + footer */
     max-height: calc(100% - 120px);
+    overflow-y: scroll;
 }
 .heading1{
   font-family: "Audrey";
@@ -117,9 +122,9 @@ p{
     padding-right: 20px;
 }
 
-.modal-dialog{
+/* .modal-dialog{
   min-width: 168px;
-}
+} */
 
   
 @media only screen and (max-width: 350px){
