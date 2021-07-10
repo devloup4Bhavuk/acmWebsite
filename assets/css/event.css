@@ -94,9 +94,12 @@ body {
       /* 80% of window height */
       height: 91%;
   }
+  .modal-content{
+    min-width: 99px;
+  }
   .modal-body {
     /* 100% = dialog height, 120px = header + footer */
-    max-height: calc(93% - 120px);
+    max-height: calc(86vh - 120px);
     overflow-y: scroll;
 }
 .heading1{
@@ -126,35 +129,7 @@ p{
   min-width: 168px;
 } */
 
-  
-@media only screen and (max-width: 350px){
-  .swiper-wrapper img{
-    height: 100vw;
-    width: 70vw;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .modal{
-    margin-left: 80px;
-    }
-
-}
-
-@media only screen and (max-width: 558px) {
-  .composition_photo{
-    height: 48vw;
-    width: 39vw;
-    margin: 38px 20px 37px 5%;
-  }
-
-  .heading1{
-    font-size: 2rem;
-  }
-}
- 
-
-@media only screen and (max-width: 947px) {
+@media only screen and (max-width: 1090px) {
   .swiper-container-3d .swiper-cube-shadow, 
   .swiper-container-3d .swiper-slide, 
   .swiper-container-3d .swiper-slide-shadow-bottom, 
@@ -164,4 +139,54 @@ p{
   .swiper-container-3d .swiper-wrapper{
     transform-style: unset;
   }
+
+  img{
+    margin: 0 12px;
+  }
+
 }
+
+@media only screen and (max-width: 1342px) {
+  .composition_photo{
+    height: 40vw;
+    width: 58.5vw;
+    margin-left: 4.5vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .modal{
+    margin-left: 21%;
+    }
+
+  .swiper-container img{
+      margin: 0 120px;
+    }
+
+    .composition_photo{
+      height: 30vw;
+      width: 40.5vw;
+      margin-left: 4.55vw;
+    }
+
+}
+
+@media only screen and (max-width: 558px) {
+
+  .heading1{
+    font-size: 2rem;
+  }
+
+  .modal{
+    margin-left: 21%;
+    }
+}
+ 
+@media only screen and (max-width: 412px){
+  .swiper-wrapper img{
+    height: 100vw;
+    width: 70vw;
+  }
+}
+
+
