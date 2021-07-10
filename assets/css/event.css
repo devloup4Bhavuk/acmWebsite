@@ -191,6 +191,10 @@ p{
     height: 100vw;
     width: 70vw;
   }
+  .modal{
+    margin-left: 3.8%;
+    width: 124%;
+  }
 }
 
 
