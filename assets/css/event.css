@@ -93,14 +93,18 @@ body {
   .modal-content {
       /* 80% of window height */
       height: 91%;
+      
+  }
+  .modal-content{
+    overflow-y: scroll;
   }
   .modal-content{
     min-width: 99px;
   }
   .modal-body {
     /* 100% = dialog height, 120px = header + footer */
-    max-height: calc(86vh - 120px);
-    overflow-y: scroll;
+    max-height: calc(93% - 120px);
+    /* overflow-y: scroll; */
 }
 .heading1{
   font-family: "Audrey";
