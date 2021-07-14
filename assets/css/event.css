@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://db.onlinewebfonts.com/c/d9a58a393d946d86051fbd9a0b594d2f?family=Audrey");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,600;1,900&display=swap');/* @import url("https://db.onlinewebfonts.com/c/d9a58a393d946d86051fbd9a0b594d2f?family=Audrey");
 @font-face {
   font-family: "Audrey";
   src: url("https://db.onlinewebfonts.com/t/d9a58a393d946d86051fbd9a0b594d2f.eot");
@@ -13,7 +13,7 @@
       format("truetype"),
     url("https://db.onlinewebfonts.com/t/d9a58a393d946d86051fbd9a0b594d2f.svg#Audrey")
       format("svg");
-}
+} */
 
 *{
     margin: 0;
@@ -23,7 +23,8 @@
 
 body {
     background: #fff;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #000;
     display: flex;
@@ -31,6 +32,10 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #111;
+  }
+
+  .footer{
+    font-family: 'Poppins' !important;
   }
 
   .swiper-container {
@@ -84,6 +89,7 @@ body {
 
   .arrow:hover{
     background-color: rgba(2, 2, 2, 0.282);
+    transition-duration: 0.5s;
   }
 
   .arrow:active{
@@ -107,7 +113,8 @@ body {
     /* overflow-y: scroll; */
 }
 .heading1{
-  font-family: "Audrey";
+  font-family: "Poppins" !important;
+  font-style: italic;
   text-transform: uppercase;
   font-size: 4rem;
   font-weight: 300;
@@ -124,9 +131,10 @@ body {
 
 p{
   font-size: 2.1rem;
-    line-height: 1.5;
-    text-align: justify;
-    padding-right: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  padding-right: 20px;
+  font-family: 'Poppins';
 }
 
 /* .modal-dialog{
