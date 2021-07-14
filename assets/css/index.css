@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,600;1,900&display=swap');
 /****************************************** navbar ******************************************/
-
 .navigation_checkbox {
   display: none; }
 
@@ -195,6 +195,7 @@
 /* footer */
 .footer{
   padding: 5rem 4rem !important;
+  font-family: 'Poppins';
 }
 .footerLeft{
   margin-bottom: 50px;
