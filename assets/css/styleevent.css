@@ -1,163 +1,182 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
 }
 
-.time-line{
-    background-color: rgb(11, 166, 238);
-    position: relative;
+.time-line {
+	background-color: rgb(11, 166, 238);
+	position: relative;
 }
 
-li{
-    list-style: none;
-    margin-left: 18%;
+h1 {
+	font-size: 4em !important;
 }
 
-.liner{
-    display: none;
+li {
+	list-style: none;
+	margin-left: 18%;
 }
 
-.year-box{
-    height: 180px;
-    width: 220px;
-    background-color: white;
-    border-radius: 7px;
-    margin: 10px 0px;
-    display: flex;
-    min-height: 100%;
-    position: relative;
-    box-shadow: 0 11px 17px 0 rgb(0 0 0 / 20%), 0 18px 36px 0 rgb(0 0 0 / 19%);
-    transition: .6s ease all !important;
-    cursor:pointer;
+.liner {
+	display: none;
 }
 
-.year-box h2{
-    position: absolute;
-    top: 37%;
-    left: 51%;
-    transform: translate(-50%,-50%);
-    font-size: 5em;
+.year-box {
+	height: 180px;
+	width: 220px;
+	background-color: white;
+	border-radius: 7px;
+	margin: 10px 0px;
+	display: flex;
+	min-height: 100%;
+	position: relative;
+	box-shadow: 0 11px 17px 0 rgb(0 0 0 / 20%), 0 18px 36px 0 rgb(0 0 0 / 19%);
+	transition: 0.6s ease all !important;
+	cursor: pointer;
 }
 
-.year-box h2:nth-child(1){
-    color: transparent;
-    -webkit-text-stroke: 1px #03a9f4;
+.year-box h2 {
+	position: absolute;
+	top: 37%;
+	left: 51%;
+	transform: translate(-50%, -50%);
+	font-size: 5em;
 }
 
-.year-box h2:nth-child(2){
-    color: #03a9f4;
-    animation: animate 4s ease-in-out infinite;
+.year-box h2:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 1px #03a9f4;
 }
 
-@keyframes animate
-{
-    0%,100%
-    {
-        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-    }
-    50%
-    {
-        clip-path: polygon(0 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-    }
-}
-.right{
-    margin-left: 60%;
-    cursor:pointer;
+.year-box h2:nth-child(2) {
+	color: #03a9f4;
+	animation: animate 4s ease-in-out infinite;
 }
 
-.line img{
-    width: 63%;
-    margin-left: 4vw;
-    transform: rotate(1deg);
-    height: 107px;
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			15% 44%,
+			32% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+	50% {
+		clip-path: polygon(
+			0 60%,
+			16% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+.right {
+	margin-left: 60%;
+	cursor: pointer;
 }
 
-.year-box:hover{
-    background-color: rgb(6, 0, 63);
-    transition: .6s ease all !important;
-    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+.line img {
+	width: 63%;
+	margin-left: 4vw;
+	transform: rotate(1deg);
+	height: 107px;
 }
 
-.year-box:active{
-    background-color: white;
+.year-box:hover {
+	background-color: rgb(6, 0, 63);
+	transition: 0.6s ease all !important;
+	box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
 }
 
-
-
-@media only screen and (max-width: 1110px){
-    li{
-        margin-left: 14%;
-    }
+.year-box:active {
+	background-color: white;
 }
 
-@media only screen and (max-width: 900px){
-    
-    li{
-        margin-left: 18%;
-    }
-    .year-box{
-        width: 27vw;
-        height: 22vw;
-        margin: 10px 0 0px;
-    }
-    .line{
-        display: none;
-    }
-    .right{
-        margin-left: 45%;
-    }
-    .year-box h2{
-        font-size: 9vw;
-        
-    }
-    .liner{
-        display: block;
-        margin-left: 42%;
-        height: 216px;
-        width: 0px;
-        border: 4px dashed white;
-        border-radius: 2px;
-    }
-    .time-line:before {
-        content: "";
-        position: absolute;
-        top: 3%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 2px;
-        height: 94%;
-        background-color: white;
-    }
+@media only screen and (max-width: 1110px) {
+	li {
+		margin-left: 14%;
+	}
+}
 
-    .circle{
-        height: 2.5vw;
-        width: 2.5vw;
-        border: solid #03a9f4;
-        border-radius: 50%;
-        background-color: white;
-        position: absolute;
-        left: 48.8%;
-        margin-top: -17%;
-        min-width: 8px;
-        min-height: 8px;
-    }
+@media only screen and (max-width: 900px) {
+	li {
+		margin-left: 18%;
+	}
+	.year-box {
+		width: 27vw;
+		height: 22vw;
+		margin: 10px 0 0px;
+	}
+	.line {
+		display: none;
+	}
+	.right {
+		margin-left: 45%;
+	}
+	.year-box h2 {
+		font-size: 9vw;
+	}
+	.liner {
+		display: block;
+		margin-left: 42%;
+		height: 216px;
+		width: 0px;
+		border: 4px dashed white;
+		border-radius: 2px;
+	}
+	.time-line:before {
+		content: "";
+		position: absolute;
+		top: 3%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 2px;
+		height: 94%;
+		background-color: white;
+	}
 
-    .year-box:hover + .circle{
-        background-color: rgb(6, 0, 63);
-        border: solid white;
-    }
-}  
+	.circle {
+		height: 2.5vw;
+		width: 2.5vw;
+		border: solid #03a9f4;
+		border-radius: 50%;
+		background-color: white;
+		position: absolute;
+		left: 48.8%;
+		margin-top: -17%;
+		min-width: 8px;
+		min-height: 8px;
+	}
 
+	.year-box:hover + .circle {
+		background-color: rgb(6, 0, 63);
+		border: solid white;
+	}
+}
 
-@media only screen and (max-width: 348px){
-    .time-line:before {
-        top: 5%;
-        height: 88%;
-    }
+@media only screen and (max-width: 348px) {
+	.time-line:before {
+		top: 5%;
+		height: 88%;
+	}
 
-    .year-box h2{
-        top: 20%;
-    }
+	.year-box h2 {
+		top: 20%;
+	}
 }

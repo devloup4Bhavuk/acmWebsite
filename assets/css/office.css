@@ -1,31 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	box-sizing: border-box;
 }
 #team {
-  margin-top: 30px;
-  margin-bottom: 100px;
+	margin-top: 30px;
+	margin-bottom: 100px;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  position: relative;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
 }
 
 h4 {
-  font-size: 22px;
-  color: #003e6b;
-  margin-top: 10px;
+	font-size: 22px;
+	color: #003e6b;
+	margin-top: 10px;
 }
 
 p {
-  font-size: 18px;
-  color: #636363;
-  margin: 0;
+	font-size: 18px;
+	color: #636363;
+	margin: 0;
 }
 
 #header > div > h1 {
@@ -46,61 +46,63 @@ p {
 }
 
 /* Cards */
-.cards{
-  display: flex;
-justify-content: center;
-max-width: 1600px;
+.cards {
+	display: flex;
+	justify-content: center;
+	max-width: 1600px;
 }
-.card{
-  padding: 25px 30px;
-  border-radius: 20px;
-  min-width: 270px;
-  /* float: left; */
-  margin: 15px;
-  /* margin-left: auto; */
-  /* display: inline-block; */
+.card {
+	padding: 25px 30px;
+	border-radius: 20px;
+	min-width: 270px;
+	/* float: left; */
+	margin: 15px;
+	transition: all ease 0.3s;
+	/* margin-left: auto; */
+	/* display: inline-block; */
 }
-.card:hover .card-img{
-    background-color:white;  
+.card:hover .card-img {
+	background-color: white;
 }
-.card:hover{
-    border: 1px solid #99daff;
+.card:hover {
+	border: 1px solid #99daff;
+	background-color: #99daff;
 }
-.card-img{
-  height: 200px;
-  width: auto;
-  border-radius: 100%;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
-  background-color: #99daff;
+.card-img {
+	height: 200px;
+	width: auto;
+	border-radius: 100%;
+	/* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+	background-color: #99daff;
 }
-ion-icon{
-  font-size: 2.1rem;
-  padding: 4.1px;
+ion-icon {
+	font-size: 2.1rem;
+	padding: 4.1px;
 }
 .icon-back {
-  border-radius: 100%;
-  height: 30px;
-  width: 30px;
-  color: white;
-  background-color: #b6b3b3;
-  position: absolute;
-  left: 90%;
-  top: -2%;
+	border-radius: 100%;
+	height: 30px;
+	width: 30px;
+	color: white;
+	background-color: #b6b3b3;
+	position: absolute;
+	left: 90%;
+	top: -2%;
 }
-.icon a{
-  color: white;
+.icon a {
+	color: white;
 }
-.card-text{
-  padding-top: 15px;
+.card-text {
+	padding-top: 15px;
 }
-.card-text h4{
-  text-transform: uppercase;
+.card-text h4 {
+	text-transform: uppercase;
 }
-.faculty{
-  color: #003e6b;
-  font-size: 4rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-align: center;
-  margin: 20px 0px;
+.faculty {
+	color: #003e6b;
+	font-size: 4rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	margin: 20px 0px;
 }
