@@ -187,6 +187,7 @@ p{
 @media only screen and (max-width: 768px) {
   .modal{
     margin-left: 21%;
+    margin-top: 3%;
     }
 
   .swiper-container img{
@@ -208,7 +209,7 @@ p{
   }
 
   .modal{
-    margin-left: 21%;
+    margin-left: 19%;
     }
 }
  
@@ -218,7 +219,7 @@ p{
     width: 70vw;
   }
   .modal{
-    margin-left: 3.8%;
+    margin-left: 4.5%;
     width: 124%;
   }
 }
