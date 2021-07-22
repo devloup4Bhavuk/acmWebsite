@@ -155,6 +155,7 @@ p{
   text-align: justify;
   font-family: 'Poppins';
   overflow-y: scroll;
+  padding-right: 1%;
 }
 
 /* .modal-dialog{
@@ -258,6 +259,10 @@ p{
   .swiper-wrapper img{
     height: 100vw;
     width: 70vw;
+  }
+
+  .heading1{
+    font-size: 2em;
   }
 
   .composition_photo{
