@@ -127,7 +127,7 @@ body {
   }
   .modal-body {
     /* 100% = dialog height, 120px = header + footer */
-    max-height: calc(106% - 127px);
+    max-height: calc(100% - 127px);
     display: flex;
     height: 96%;
     /* overflow-y: scroll; */
