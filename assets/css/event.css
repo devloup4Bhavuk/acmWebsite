@@ -142,7 +142,7 @@ body {
 }
 .composition_photo{
   /* margin:0px 110px; */
-  height: 40vh;
+  height: 35vh;
 
   /* float: left; */
   margin: 6vh 65px 60px 52px;
@@ -290,6 +290,13 @@ p{
 {
   .modal{
     margin-left: 3.2%;
+  }
+}
+
+@media only screen and (max-width: 280px)
+{
+  .heading1{
+    font-size: 1.5em;
   }
 }
 
