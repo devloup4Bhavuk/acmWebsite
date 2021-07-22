@@ -113,21 +113,23 @@ body {
   .arrow:active{
     color: rgba(0, 0, 0, 0.638);
   }
-  .modal-dialog,
+  .modal-dialog {
+    height: 91%;
+    margin: 79px auto;
+  }
   .modal-content {
-      /* 80% of window height */
-      height: 91%;
-      
+      height: 79%;
+      min-height: 500px;
   }
-  .modal-content{
-    overflow-y: scroll;
-  }
+  
   .modal-content{
     min-width: 99px;
   }
   .modal-body {
     /* 100% = dialog height, 120px = header + footer */
-    max-height: calc(93% - 120px);
+    max-height: calc(106% - 127px);
+    display: flex;
+    height: 96%;
     /* overflow-y: scroll; */
 }
 .heading1{
@@ -143,7 +145,7 @@ body {
   height: 40vh;
 
   /* float: left; */
-  margin: 40px 0px 60px 400px;
+  margin: 6vh 65px 60px 52px;
 
 }
 
@@ -151,13 +153,35 @@ p{
   font-size: 2.1rem;
   line-height: 1.5;
   text-align: justify;
-  padding-right: 20px;
   font-family: 'Poppins';
+  overflow-y: scroll;
 }
 
 /* .modal-dialog{
   min-width: 168px;
 } */
+
+@media only screen and (max-width: 1300px) {
+  .modal-body{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal-content{
+    overflow-y: scroll;
+  }
+  
+  p{
+    overflow: visible;
+  }
+
+  .composition_photo{
+    height: 52vw;
+    width: 26vw;
+    margin: 2vh 0px 28px 0px;
+  }
+
+}
 
 @media only screen and (max-width: 1090px) {
   .swiper-container-3d .swiper-cube-shadow, 
@@ -176,41 +200,58 @@ p{
 
 }
 
-@media only screen and (max-width: 1342px) {
-  .composition_photo{
-    height: 40vw;
-    width: 58.5vw;
-    margin-left: 4.5vw;
-  }
-}
 
-@media only screen and (max-width: 768px) {
-  .modal{
-    margin-left: 21%;
-    margin-top: 3%;
-    }
+@media only screen and (max-width: 767px) {
 
   .swiper-container img{
       margin: 0 120px;
     }
 
+    .modal{
+      margin-left: 5.3%;
+      width: 124%;
+    }
+
+    .modal-dialog{
+     
+      margin-top: 10px;
+    }
+
+    .modal-dialog-centered{
+      margin: 0;
+    }
+
+    .modal-content{
+      margin-top: 50px;
+    }
+
     .composition_photo{
-      height: 30vw;
-      width: 40.5vw;
-      margin-left: 4vw;
+      min-height: 304px;
+      min-width: 219px;
+      margin: 1vh 0px 21px 0px;
     }
 
 }
 
-@media only screen and (max-width: 558px) {
-
-  .heading1{
-    font-size: 2rem;
-  }
-
+@media only screen and (max-width: 640px)
+{
   .modal{
-    margin-left: 19%;
-    }
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 530px)
+{
+  .modal{
+    margin-left: 4.5%;
+  }
+}
+
+@media only screen and (max-width: 435px)
+{
+  .modal{
+    margin-left: 4.2%;
+  }
 }
  
 @media only screen and (max-width: 412px){
@@ -218,10 +259,47 @@ p{
     height: 100vw;
     width: 70vw;
   }
-  .modal{
-    margin-left: 4.5%;
-    width: 124%;
+
+  .composition_photo{
+    min-height: 186px;
+    min-width: 140px;
+    margin: 0vh 0px 16px 0px;
   }
 }
 
+@media only screen and (max-width: 384px)
+{
+  .modal{
+    margin-left: 4%;
+  }
+}
+
+@media only screen and (max-width: 350px)
+{
+  .modal{
+    margin-left: 3.6%;
+  }
+}
+
+@media only screen and (max-width: 320px)
+{
+  .modal{
+    margin-left: 3.2%;
+  }
+}
+
+@media only screen and (max-width: 270px)
+{
+  .modal{
+    margin-left: 2.6%;
+  }
+}
+
+@media only screen and (max-width: 279px)
+{
+  p{
+    font-size: 1.2em;
+  }
+
+}
 
