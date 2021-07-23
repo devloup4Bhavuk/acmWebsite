@@ -231,7 +231,9 @@ body {
 .header-img {
 	width: 100%;
 }
-
+#exampleModalA{
+	overflow: hidden;
+}
 @media only screen and (max-width: 1200px) {
 	.list-group-item-action::before {
 		left: 0;
