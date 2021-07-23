@@ -314,4 +314,7 @@ p{
   }
 
 }
+.fade{  
+  backdrop-filter: blur(80px);  
+}
 
