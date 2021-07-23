@@ -312,6 +312,6 @@ p{
 
 }
 .fade{  
-  backdrop-filter: blur(80px);  
+  backdrop-filter: blur(50px);  
 }
 
